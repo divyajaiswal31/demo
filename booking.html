@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<style>
+    h1{
+        text-align: center;
+        text-decoration:underline;
+        color: black;
+        font-style: italic;
+        font-size: 50px;
+        
+    }
+input[type=submit]:hover{
+    background-color: aqua;
+}
+   
+
+</style>
+<body>
+    <div class="container">
+    <h1>BOOKING</h1>
+    <h3>~Personal Informations:-</h3>
+    <p>Required fields are followed by *</p>
+    <p>Name : *<input type="text" required name="name" placeholder="Enter your name"> </p>
+<p>DOB : <input type="date" required name="dob" ></p>
+<p>Address:* <textarea name="address" id="address" cols="100" rows="9" placeholder="Enter your address"></textarea></p>
+<p>PIN Code: <input type="pin" name="pin" id="pin" placeholder="Enter 6 digit code"></p>
+<p>ID Proof: *
+    <select name="booking" id="booking">
+        <option value="">---Select ID type---</option>
+        <option value="Aadhar card">Aadhar Card</option>
+        <option value="PAN Card">PAN card</option>
+        <option value="Voter ID">Voter ID</option>
+        <option value="Driving Liecanse">Driving Liecanse</option>
+    </select>
+</p>
+<p>No. of persons: <input type="number" name="persons" id="person"></p>
+<legend>Gender :</legend>
+            Male <input type="radio" name="gender"  id="gender">
+            female <input type="radio" name="gender"  id="gender">
+            <h3>~Trip Informations:-</h3>
+            <p>Trip via:
+                <select name="trip" id="trip">
+                    <option value="">---select---</option>
+                    <option value="">Traveller</option>
+                    <option value="">Car</option>
+                    <option value="">Bike</option>
+                    <option value="">Tracking</option>
+                </select>
+            </p>
+            <p>Hotels: 
+                <select name="hotel" id="hotel">
+                    <option value="">---select---</option>
+                    <option value="">The Himalayan</option>
+                    <option value="">Snow valley Resorts</option>
+                    <option value="">Sterling Manali</option>
+                    <option value="">Club Mahindra White Meadows</option>
+                    <option value="">Banon Resorts</option>
+                </select>
+            </p>
+            <legend>Room Type:</legend>
+            AC <input type="radio" name="ac" id="ac">(7000-15000)
+            Non-Ac <input type="radio" name="nac" id="nac">(2000-7000)
+        </div>
+          <div class="info">
+            <p>For more details contact us:-</p>
+               <p>  ~Divya Jaiswal</p>
+                 <p>89820xxxx
+                 </p>
+          </div>
+          <input type="submit" value="Submit">
+
+
+
+            
+        
+
+
+
+    
+</body>
+</html>

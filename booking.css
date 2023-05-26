@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color:lightgrey;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgb(169, 102, 236);
+    border-radius: 4px;
+}
+h3{
+    font-size: 25px;
+    font-style: inherit;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 15px 20px;
+    font-size: 15px;
+    padding: 8px;
+    font-style: normal;
+
+}
+.info{
+    font-size: 12px;
+    
+}
